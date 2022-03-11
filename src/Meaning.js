@@ -12,15 +12,14 @@ export default function Meaning(props){
           <div key={index}>
               <p>
                 <strong> Definition:</strong>{definition.definition}
-                  <br/>
-                  <strong>Example:</strong>{definition.example}
-                  <br/>
-                 <em>Synonyms:</em>{definition.Synonyms} 
-                  <Synonyms Synonyms={definition.Synonyms}/>
-              </p>
+                <br />
+              <strong>Example:</strong>
+              <em>{definition.example}</em>
+              <Synonyms synonyms={definition.synonyms} />
+            </p>
           </div>
-      );
-  })}
-  </div>
-  );  
+        );
+      })}
+    </div>
+  );
 }
