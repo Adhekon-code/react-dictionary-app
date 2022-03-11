@@ -8,7 +8,6 @@ let [keyword, setKeyword]=useState("")
 let [results, setResults]=useState(null)
 
 function handleResponse(response){
-console.log (response.data[0]);
 setResults(response.data[0]);
 }
 
@@ -22,7 +21,7 @@ event.preventDefault();
 axios.get(apiUrl).then(handleResponse)
   }
 function handleKeywordchange(event){
-console.log(event.target.value);
+
 setKeyword(event.target.value);
 } 
 
