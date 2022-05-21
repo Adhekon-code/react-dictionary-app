@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <div className="container">
     
-      <Search/>
-       <footer>Coded  Hellen Adhekon</footer>
+      <Search defaultkeyword="tree"/>
+       <footer>Coded by Hellen Adhekon</footer>
        </div>
       </div>
   );

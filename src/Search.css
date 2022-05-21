@@ -2,4 +2,24 @@
     color: rgb(83, 57, 57);
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    padding:30px;
+    Margin:20px 0;
+    border-radius: 6px;
+}
+.Search input{
+    width: 50%;
+    border-radius:6px;
+    color:rgb(57, 57, 45);
+    Border: 1px solid green;
+}
+.Search .hint{
+ font-size: 11px;  
+ margin-top: 5px; 
+}
+.section{
+    background: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 10px rgb(0 0 0 /10%);
+    margin:20px 0;
 }
