@@ -5,10 +5,10 @@ export default function Photos(props) {
         console.log(props.photos);
         return (
         <section className="photos">
-            <div claaName="row">
+            <div className="row">
             {props.photos.map(function (photo, index)
             {
-                return <img src={photo.src.tiny} key={index} />;
+                return <img src={photo.src.tiny} target="_blank" key={index} />;
         })}
         </div>
         </section>
