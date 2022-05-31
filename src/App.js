@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
     
-      <Search defaultkeyword="tree"/>
+      <Search defaultKeyword="tree"/>
        <footer>Coded by Hellen Adhekon</footer>
        </div>
       </div>

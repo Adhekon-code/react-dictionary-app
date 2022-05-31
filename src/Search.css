@@ -7,19 +7,32 @@
     border-radius: 6px;
 }
 .Search input{
-    width: 50%;
-    border-radius:6px;
-    color:rgb(57, 57, 45);
-    Border: 1px solid green;
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px 10px;
+    color: #333;
+    border: 1px solid rgb(240, 173, 173);
 }
 .Search .hint{
- font-size: 11px;  
- margin-top: 5px; 
+    font-size: 11px;
+    margin-top: 5px;
 }
-.section{
-    background: white;
+.Search section{
+    background: rgb(243, 226, 226);
     padding: 30px;
     border-radius: 6px;
-    box-shadow: 0 10px 10px rgb(0 0 0 /10%);
-    margin:20px 0;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+    margin: 20px 0;
 }
+.Search  h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+    
+
+  
+
+  
